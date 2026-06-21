@@ -25,6 +25,9 @@ export const metadata: Metadata = {
   title: "Spandan Poudel — Full Stack Engineer",
   description:
     "Full Stack Engineer building production web & mobile apps. React Native, Next.js, TypeScript. Based in Jhapa, Nepal.",
+  verification: {
+    google: "DEhaxv-Y3t0600X5YnX2-yKHBAgdYG5MDqiFM5RWHzA",
+  },
 };
 
 export const revalidate = 60;
