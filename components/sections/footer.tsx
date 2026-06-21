@@ -16,7 +16,9 @@ export function Footer({ profile }: FooterProps) {
         </p>
         {profile.location && (
           <div className="flex items-center gap-1.5">
-            <span className="text-[10px] text-primary">●</span>
+            <a href="/studio" className="text-[10px] text-primary">
+              ●
+            </a>
             <span className="font-mono text-[10px] tracking-wider text-muted-foreground/50">
               {profile.location}
             </span>

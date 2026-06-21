@@ -24,7 +24,7 @@ export default async function BlogPage() {
     <main className="mx-auto max-w-3xl px-6 py-12 sm:py-20">
       <div className="mb-12">
         <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-          Blog
+          Blogs
         </h1>
         <p className="mt-4 text-lg text-muted-foreground">
           Thoughts, learnings, and experiences.

@@ -13,6 +13,7 @@ export function Navigation({ logoText = "sp_dev" }: { logoText?: string }) {
     { label: "WORK", href: isHome ? "#work" : "/#work" },
     { label: "ABOUT", href: isHome ? "#about" : "/#about" },
     { label: "STACK", href: isHome ? "#stack" : "/#stack" },
+    { label: "BLOGS", href: "/blog" },
   ];
 
   return (
